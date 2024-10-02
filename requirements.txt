@@ -1,0 +1,8 @@
+openai
+gradio
+gitpython
+pillow
+requests
+python-dotenv
+PyMuPDF
+pyyaml

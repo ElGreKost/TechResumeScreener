@@ -1,0 +1,15 @@
+# config.yaml
+
+models:
+  vision_model: gpt-4o
+  language_model: gpt-3.5-turbo
+
+api_params:
+  max_tokens: 1500
+  temperature: 0.7
+  n: 1
+
+github_analysis:
+  max_repos: null  # Set to null or remove the limit to process all repositories
+  max_repo_size_mb: 50  # Maximum repository size in MB
+  exclude_forks: true  # Exclude forked repositories
